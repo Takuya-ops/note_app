@@ -12,7 +12,7 @@ const Note = ({note}: NoteProps) => {
       <h3 className='text-pink-500 text-lg md:text-xl font-semibold'>{note.title}
       </h3>
       {parse(note.content)}
-      <span>{note.content}</span>
+      {/* <span>{note.content}</span> */}
     </div>
   );
 }
