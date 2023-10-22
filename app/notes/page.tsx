@@ -27,7 +27,7 @@ export default async function Page() {
 }
 
 const NoteItem = ({note}: NoteProps) => {
-  return <div className="bg-gray-100 rounded-lg p-5">
+  return <div className="bg-gray-100 rounded-lg p-6">
       <Link href={`/notes/${note.id}`}>
         <h3 className="text-purple-500 hover:text-purple-700 text-lg md:text-xl font-semibold mb-3 underline">{note.title}</h3>
       </Link>
