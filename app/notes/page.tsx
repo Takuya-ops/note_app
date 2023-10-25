@@ -31,7 +31,7 @@ const NoteItem = ({note}: NoteProps) => {
       <Link href={`/notes/${note.id}`}>
         <h3 className="text-purple-500 hover:text-purple-700 text-lg md:text-xl font-semibold mb-3 underline">{note.title}</h3>
       </Link>
-      {note.content.toString().slice(3, 15) + "...　"}
+      {note.content.toString().slice(3, 15) + "....　"}
       <span>{note.createdAt.toString().slice(0,10)}</span>
     </div>
 }
